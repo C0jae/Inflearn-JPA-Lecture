@@ -17,7 +17,7 @@ public class JpaMain {
 
         try {
             Member member = new Member();
-            member.setName("member0");
+            member.setName("member3");
             em.persist(member);
 
             tx.commit();
