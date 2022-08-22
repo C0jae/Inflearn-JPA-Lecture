@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79db92df-bfa5-47d8-b3bf-76680cc70296" name="Changes" comment="" />
+    <list default="true" id="79db92df-bfa5-47d8-b3bf-76680cc70296" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ex1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1/target/classes/helloJpa/JpaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1/target/classes/helloJpa/JpaMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1/target/classes/helloJpa/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1/target/classes/helloJpa/Member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1/target/classes/helloJpa/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1/target/classes/helloJpa/Team.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jpabook/jpashop/JpaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jpabook/jpashop/JpaMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jpabook/jpashop/domain/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jpabook/jpashop/domain/Item.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,14 +46,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2DYq5laOiMEO99J8NAVKTQR7drl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -68,5 +92,16 @@
       <updated>1660886192114</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
