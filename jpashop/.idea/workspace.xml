@@ -5,27 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79db92df-bfa5-47d8-b3bf-76680cc70296" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ex1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/Parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1/src/main/java/helloJpa/Team.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ex1/target/classes/helloJpa/JpaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1/target/classes/helloJpa/JpaMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1/target/classes/helloJpa/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1/target/classes/helloJpa/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1/target/classes/helloJpa/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1/target/classes/helloJpa/Team.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jpabook/jpashop/JpaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jpabook/jpashop/JpaMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jpabook/jpashop/domain/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jpabook/jpashop/domain/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Delivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
