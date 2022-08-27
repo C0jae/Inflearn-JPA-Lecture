@@ -1,12 +1,12 @@
 package helloJpa;
 
 import javax.persistence.*;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-public class Member extends BaseEntity {
-
+public class Member {
     @Id
     @GeneratedValue
     @Column(name = "MEMBER_ID")
@@ -15,13 +15,23 @@ public class Member extends BaseEntity {
     @Column(name = "USERNAME")
     private String username;
 
-    @OneToOne
-    @JoinColumn(name = "LOCKER_ID")
-    private Locker locker;
+    @Embedded
+    private Period workPeriod;
 
-    @ManyToMany
-    @JoinTable(name = "MEMBER_PRODUCT")
-    private List<Product> products = new ArrayList<>();
+    @Embedded
+    private Address homeAddress;
+
+    @Embedded
+    @AttributeOverrides({
+            @AttributeOverride(name = "city",
+                column = @Column(name = "WORK_CITY")),
+            @AttributeOverride(name = "street",
+                    column = @Column(name = "WORK_STREET")),
+            @AttributeOverride(name = "zipcode",
+                    column = @Column(name = "WORK_ZIPCIDE"))
+    })
+    private Address workAddress;
+
 
     public Long getId() {
         return id;
@@ -37,5 +47,21 @@ public class Member extends BaseEntity {
 
     public void setUsername(String username) {
         this.username = username;
+    }
+
+    public Period getWorkPeriod() {
+        return workPeriod;
+    }
+
+    public void setWorkPeriod(Period workPeriod) {
+        this.workPeriod = workPeriod;
+    }
+
+    public Address getHomeAddress() {
+        return homeAddress;
+    }
+
+    public void setHomeAddress(Address homeAddress) {
+        this.homeAddress = homeAddress;
     }
 }
